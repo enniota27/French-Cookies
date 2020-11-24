@@ -1,0 +1,76 @@
+/* FONT */
+*{
+    font-family: BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    color: #464646;
+    }
+    h1, h2{
+        font-weight: 500;
+    }
+/* CENTRER DANS LA PAGE */
+.container{
+    margin: auto;
+    max-width: 900px;
+}
+/* IMAGE */
+.img-plat{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+}
+/* SOULIGNEMENT TITRE */
+.souligne{
+    border-bottom: 1px solid#DCDCDC;
+}
+/* CERCLE */
+.rounded{
+    border: 1px solid#DCDCDC;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    margin: auto;
+}
+.rounded > *{
+    padding-top: 2px;
+}
+.text-center{
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+.star{
+    height: 45px;
+}
+/* TABLEAU */
+.table-ingrediants{
+    width: 100%;
+    border-collapse: collapse;
+}
+.table-ingrediants tbody tr:nth-child(odd){ /* Ligne grise pair */
+    background-color: #f2f2f2;
+}
+.table-ingrediants th, td {
+    padding: 10px;
+    border-top: 1px solid #DCDCDC;
+    text-align: left;
+}
+.table-ingrediants tbody td:nth-child(1){ 
+    font-weight: bold;
+}
+/* TITRE DU TABLEAU */
+caption {
+    padding: 10px;
+    caption-side: bottom;
+    color: gray;
+    text-align: left;
+}
+/* BOUTON + et - */
+#plus, #moins {
+    background-color: #FFF;
+    border: none;
+    font-size: 25px;
+    font-weight: bold;
+}
